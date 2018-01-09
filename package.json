@@ -1,0 +1,27 @@
+{
+  "name": "file-metadata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgoldber61/file-metadata.git"
+  },
+  "author": "sgoldber61",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sgoldber61/file-metadata/issues"
+  },
+  "homepage": "https://github.com/sgoldber61/file-metadata#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "fs": "0.0.1-security",
+    "multer": "^1.3.0",
+    "nodemon": "^1.14.9",
+    "path": "^0.12.7"
+  }
+}
